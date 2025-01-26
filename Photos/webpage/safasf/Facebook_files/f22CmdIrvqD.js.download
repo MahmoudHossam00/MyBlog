@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("CometOnRefresh",["CometRouterRefreshKeyContext","react","react-compiler-runtime"],(function(a,b,c,d,e,f,g){"use strict";var h;b=h||d("react");var i=b.useContext,j=b.useEffect,k=b.useRef;function a(a){var b=d("react-compiler-runtime").c(4),e=i(c("CometRouterRefreshKeyContext")),f=k(e),g,h;b[0]!==a||b[1]!==e?(g=function(){e!=null&&e!==f.current&&(f.current=e,a())},h=[e,a],b[0]=a,b[1]=e,b[2]=g,b[3]=h):(g=b[2],h=b[3]);j(g,h)}g.useOnRefresh=a}),98);
+__d("ProfileCometProfilePlusFollowChainingContainerQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="27768935869421239"}),null);

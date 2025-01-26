@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("getUpgradedCometHashtagComposerHandler",["FBLogger","LexicalHashtag","LexicalText","LexicalUtils","getHashtagRegexString"],(function(a,b,c,d,e,f,g){"use strict";var h=new RegExp(c("getHashtagRegexString")(),"i");function a(a){if(!a.hasNodes([d("LexicalHashtag").HashtagNode]))throw c("FBLogger")("outline_ufi").mustfixThrow("HashtagPlugin: HashtagNode not registered on editor");var b=function(a){return d("LexicalHashtag").$createHashtagNode(a.getTextContent())},e=function(a){a=h.exec(a);if(a===null)return null;var b=a[3].length+1;a=a.index+a[1].length;b=a+b;return{end:b,start:a}};return d("LexicalUtils").mergeRegister.apply(void 0,d("LexicalText").registerLexicalTextEntity(a,e,d("LexicalHashtag").HashtagNode,b))}g["default"]=a}),98);
